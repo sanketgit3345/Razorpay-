@@ -1,0 +1,26 @@
+.pawan_box:hover{
+    transition: 0.5s;
+    box-shadow: 1px 1px 20px rgb(231,231,231);
+}
+.corefeaturesection{
+    background-size: 100% 100%;
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+}
+
+.ctaSection{
+    background-size: 100% 100%;
+  }
+
+  .companiesList{
+    animation:10s infinite linear moveCompany;
+  }
+
+  @keyframes moveCompany {
+    0%{
+      top:0;
+    }
+    100%{
+      top:-50%;
+    }
+  }
